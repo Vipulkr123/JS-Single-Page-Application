@@ -1,0 +1,20 @@
+.top-class {
+    background-image: url('../images/laptop.jpg');
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .lead {
+        color: crimson;
+        font-size: 30px !important;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .lead {
+        color: crimson;
+        font-size: 60px !important;
+    }
+  }
